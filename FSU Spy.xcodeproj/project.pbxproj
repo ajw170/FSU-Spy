@@ -36,6 +36,7 @@
 		9815B4D71E4279ED009073DB = {
 			isa = PBXGroup;
 			children = (
+				9815B4EA1E427B18009073DB /* Support FIles */,
 				9815B4E21E4279ED009073DB /* FSU Spy */,
 				9815B4E11E4279ED009073DB /* Products */,
 			);
@@ -54,6 +55,13 @@
 			children = (
 			);
 			path = "FSU Spy";
+			sourceTree = "<group>";
+		};
+		9815B4EA1E427B18009073DB /* Support FIles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Support FIles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +217,8 @@
 		9815B4E81E4279ED009073DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +226,8 @@
 		9815B4E91E4279ED009073DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
