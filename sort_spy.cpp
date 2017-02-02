@@ -2,7 +2,7 @@
    sort_spy.cpp
    Chris Lacher
    01/15/16
-
+ 
    takes two arguments: input and output file names
 
    processes as follows: 
