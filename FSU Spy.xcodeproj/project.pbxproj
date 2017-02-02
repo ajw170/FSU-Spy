@@ -6,8 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9815B4F41E429793009073DB /* sort_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4F01E429793009073DB /* sort_spy.cpp */; };
+		9815B5061E42984D009073DB /* search_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4EF1E429793009073DB /* search_spy.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		9815B4DE1E4279ED009073DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9815B4FD1E429841009073DB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,11 +33,40 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9815B4E01E4279ED009073DB /* FSU Spy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Spy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9815B4E01E4279ED009073DB /* FSU Sort_Spy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Sort_Spy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9815B4EB1E4296F0009073DB /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
+		9815B4EC1E42971F009073DB /* gbsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gbsearch.h; sourceTree = "<group>"; };
+		9815B4ED1E429793009073DB /* hsort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hsort.cpp; sourceTree = "<group>"; };
+		9815B4EE1E429793009073DB /* ranuint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ranuint.cpp; sourceTree = "<group>"; };
+		9815B4EF1E429793009073DB /* search_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search_spy.cpp; path = ../search_spy.cpp; sourceTree = "<group>"; };
+		9815B4F01E429793009073DB /* sort_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sort_spy.cpp; path = ../sort_spy.cpp; sourceTree = "<group>"; };
+		9815B4F51E4297D2009073DB /* deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deque.h; sourceTree = "<group>"; };
+		9815B4F61E4297D2009073DB /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		9815B4F71E4297E8009073DB /* deque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deque.cpp; sourceTree = "<group>"; };
+		9815B4F81E4297E8009073DB /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
+		9815B4FF1E429841009073DB /* FSU Search_Spy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Search_Spy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9815B5071E429984009073DB /* list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
+		9815B5081E429984009073DB /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		9815B5091E4299D2009073DB /* genalg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genalg.h; sourceTree = "<group>"; };
+		9815B50A1E4299ED009073DB /* gheap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gheap.h; sourceTree = "<group>"; };
+		9815B50B1E4299F4009073DB /* gsort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsort.h; sourceTree = "<group>"; };
+		9815B50C1E429A5E009073DB /* insert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insert.h; sourceTree = "<group>"; };
+		9815B50D1E429AF9009073DB /* list_macro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_macro.cpp; sourceTree = "<group>"; };
+		9815B50E1E429AF9009073DB /* list_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_sort.cpp; sourceTree = "<group>"; };
+		9815B50F1E429DEA009073DB /* rbsearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rbsearch.h; sourceTree = "<group>"; };
+		9815B5101E42A981009073DB /* fgss.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fgss.cpp; sourceTree = "<group>"; };
+		9815B5111E42D3FF009073DB /* compare_spy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = compare_spy.h; path = "../../../FSU/COP 4530/Course Library/tcpp/compare_spy.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9815B4DD1E4279ED009073DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9815B4FC1E429841009073DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				9815B4EA1E427B18009073DB /* Support FIles */,
-				9815B4E21E4279ED009073DB /* FSU Spy */,
+				9815B4E21E4279ED009073DB /* FSU Sort_Spy */,
+				9815B5001E429841009073DB /* FSU Search_Spy */,
 				9815B4E11E4279ED009073DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,31 +89,61 @@
 		9815B4E11E4279ED009073DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9815B4E01E4279ED009073DB /* FSU Spy */,
+				9815B4E01E4279ED009073DB /* FSU Sort_Spy */,
+				9815B4FF1E429841009073DB /* FSU Search_Spy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9815B4E21E4279ED009073DB /* FSU Spy */ = {
+		9815B4E21E4279ED009073DB /* FSU Sort_Spy */ = {
 			isa = PBXGroup;
 			children = (
+				9815B4F01E429793009073DB /* sort_spy.cpp */,
+				9815B5111E42D3FF009073DB /* compare_spy.h */,
 			);
+			name = "FSU Sort_Spy";
 			path = "FSU Spy";
 			sourceTree = "<group>";
 		};
 		9815B4EA1E427B18009073DB /* Support FIles */ = {
 			isa = PBXGroup;
 			children = (
+				9815B5101E42A981009073DB /* fgss.cpp */,
+				9815B50D1E429AF9009073DB /* list_macro.cpp */,
+				9815B50E1E429AF9009073DB /* list_sort.cpp */,
+				9815B50C1E429A5E009073DB /* insert.h */,
+				9815B50B1E4299F4009073DB /* gsort.h */,
+				9815B50A1E4299ED009073DB /* gheap.h */,
+				9815B5091E4299D2009073DB /* genalg.h */,
+				9815B5071E429984009073DB /* list.cpp */,
+				9815B5081E429984009073DB /* list.h */,
+				9815B4F71E4297E8009073DB /* deque.cpp */,
+				9815B4F81E4297E8009073DB /* vector.cpp */,
+				9815B4F51E4297D2009073DB /* deque.h */,
+				9815B4F61E4297D2009073DB /* vector.h */,
+				9815B4ED1E429793009073DB /* hsort.cpp */,
+				9815B4EE1E429793009073DB /* ranuint.cpp */,
+				9815B4EC1E42971F009073DB /* gbsearch.h */,
+				9815B50F1E429DEA009073DB /* rbsearch.h */,
+				9815B4EB1E4296F0009073DB /* compare.h */,
 			);
 			name = "Support FIles";
+			sourceTree = "<group>";
+		};
+		9815B5001E429841009073DB /* FSU Search_Spy */ = {
+			isa = PBXGroup;
+			children = (
+				9815B4EF1E429793009073DB /* search_spy.cpp */,
+			);
+			path = "FSU Search_Spy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9815B4DF1E4279ED009073DB /* FSU Spy */ = {
+		9815B4DF1E4279ED009073DB /* FSU Sort_Spy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9815B4E71E4279ED009073DB /* Build configuration list for PBXNativeTarget "FSU Spy" */;
+			buildConfigurationList = 9815B4E71E4279ED009073DB /* Build configuration list for PBXNativeTarget "FSU Sort_Spy" */;
 			buildPhases = (
 				9815B4DC1E4279ED009073DB /* Sources */,
 				9815B4DD1E4279ED009073DB /* Frameworks */,
@@ -79,9 +153,26 @@
 			);
 			dependencies = (
 			);
-			name = "FSU Spy";
+			name = "FSU Sort_Spy";
 			productName = "FSU Spy";
-			productReference = 9815B4E01E4279ED009073DB /* FSU Spy */;
+			productReference = 9815B4E01E4279ED009073DB /* FSU Sort_Spy */;
+			productType = "com.apple.product-type.tool";
+		};
+		9815B4FE1E429841009073DB /* FSU Search_Spy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9815B5031E429841009073DB /* Build configuration list for PBXNativeTarget "FSU Search_Spy" */;
+			buildPhases = (
+				9815B4FB1E429841009073DB /* Sources */,
+				9815B4FC1E429841009073DB /* Frameworks */,
+				9815B4FD1E429841009073DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FSU Search_Spy";
+			productName = "FSU Search_Spy";
+			productReference = 9815B4FF1E429841009073DB /* FSU Search_Spy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -94,6 +185,10 @@
 				ORGANIZATIONNAME = FSU;
 				TargetAttributes = {
 					9815B4DF1E4279ED009073DB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					9815B4FE1E429841009073DB = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -111,7 +206,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9815B4DF1E4279ED009073DB /* FSU Spy */,
+				9815B4DF1E4279ED009073DB /* FSU Sort_Spy */,
+				9815B4FE1E429841009073DB /* FSU Search_Spy */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9815B4F41E429793009073DB /* sort_spy.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9815B4FB1E429841009073DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9815B5061E42984D009073DB /* search_spy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -208,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -232,6 +337,24 @@
 			};
 			name = Release;
 		};
+		9815B5041E429841009073DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9815B5051E429841009073DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -244,11 +367,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9815B4E71E4279ED009073DB /* Build configuration list for PBXNativeTarget "FSU Spy" */ = {
+		9815B4E71E4279ED009073DB /* Build configuration list for PBXNativeTarget "FSU Sort_Spy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9815B4E81E4279ED009073DB /* Debug */,
 				9815B4E91E4279ED009073DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9815B5031E429841009073DB /* Build configuration list for PBXNativeTarget "FSU Search_Spy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9815B5041E429841009073DB /* Debug */,
+				9815B5051E429841009073DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

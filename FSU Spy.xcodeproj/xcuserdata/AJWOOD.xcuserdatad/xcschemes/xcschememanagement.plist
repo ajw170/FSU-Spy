@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FSU Spy.xcscheme</key>
+		<key>FSU Search_Spy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>FSU Sort_Spy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>9815B4DF1E4279ED009073DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9815B4FE1E429841009073DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
