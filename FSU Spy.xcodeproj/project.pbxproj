@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9815B4F41E429793009073DB /* sort_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4F01E429793009073DB /* sort_spy.cpp */; };
 		9815B5061E42984D009073DB /* search_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4EF1E429793009073DB /* search_spy.cpp */; };
-		9815B5151E42E27C009073DB /* xran.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B5131E42E27C009073DB /* xran.cpp */; };
 		9815B5211E42E323009073DB /* ranuint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4EE1E429793009073DB /* ranuint.cpp */; };
 /* End PBXBuildFile section */
 
@@ -44,13 +43,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		98098B521E42EC4A001798DB /* search_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search_spy.cpp; sourceTree = "<group>"; };
+		98098B571E42EDA9001798DB /* compare_spy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare_spy.h; sourceTree = "<group>"; };
 		9815B4E01E4279ED009073DB /* FSU Sort_Spy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Sort_Spy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9815B4EB1E4296F0009073DB /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
 		9815B4EC1E42971F009073DB /* gbsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gbsearch.h; sourceTree = "<group>"; };
 		9815B4ED1E429793009073DB /* hsort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hsort.cpp; sourceTree = "<group>"; };
 		9815B4EE1E429793009073DB /* ranuint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ranuint.cpp; sourceTree = "<group>"; };
-		9815B4EF1E429793009073DB /* search_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search_spy.cpp; path = ../search_spy.cpp; sourceTree = "<group>"; };
-		9815B4F01E429793009073DB /* sort_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sort_spy.cpp; path = ../sort_spy.cpp; sourceTree = "<group>"; };
+		9815B4EF1E429793009073DB /* search_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search_spy.cpp; sourceTree = "<group>"; };
+		9815B4F01E429793009073DB /* sort_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sort_spy.cpp; sourceTree = "<group>"; };
 		9815B4F51E4297D2009073DB /* deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deque.h; sourceTree = "<group>"; };
 		9815B4F61E4297D2009073DB /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
 		9815B4F71E4297E8009073DB /* deque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deque.cpp; sourceTree = "<group>"; };
@@ -66,12 +67,11 @@
 		9815B50E1E429AF9009073DB /* list_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_sort.cpp; sourceTree = "<group>"; };
 		9815B50F1E429DEA009073DB /* rbsearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rbsearch.h; sourceTree = "<group>"; };
 		9815B5101E42A981009073DB /* fgss.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fgss.cpp; sourceTree = "<group>"; };
-		9815B5121E42E09D009073DB /* compare_spy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compare_spy.h; path = ../compare_spy.h; sourceTree = "<group>"; };
 		9815B5131E42E27C009073DB /* xran.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xran.cpp; sourceTree = "<group>"; };
 		9815B5141E42E27C009073DB /* xran.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xran.h; sourceTree = "<group>"; };
 		9815B51A1E42E2F5009073DB /* RanUInt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RanUInt; sourceTree = BUILT_PRODUCTS_DIR; };
-		9815B51C1E42E2F6009073DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9815B5221E42E3B1009073DB /* resultstest.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resultstest.com; sourceTree = "<group>"; };
+		9815B5231E42E6EF009073DB /* sortedresults.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sortedresults.com; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98098B561E42EC85001798DB /* Sort Spy */ = {
+			isa = PBXGroup;
+			children = (
+				98098B571E42EDA9001798DB /* compare_spy.h */,
+				9815B4F01E429793009073DB /* sort_spy.cpp */,
+			);
+			name = "Sort Spy";
+			sourceTree = "<group>";
+		};
 		9815B4D71E4279ED009073DB = {
 			isa = PBXGroup;
 			children = (
+				98098B561E42EC85001798DB /* Sort Spy */,
 				9815B4EA1E427B18009073DB /* Support FIles */,
-				9815B4E21E4279ED009073DB /* FSU Sort_Spy */,
-				9815B5001E429841009073DB /* FSU Search_Spy */,
-				9815B51B1E42E2F6009073DB /* RanUInt */,
 				9815B4E11E4279ED009073DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,16 +125,6 @@
 				9815B51A1E42E2F5009073DB /* RanUInt */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9815B4E21E4279ED009073DB /* FSU Sort_Spy */ = {
-			isa = PBXGroup;
-			children = (
-				9815B4F01E429793009073DB /* sort_spy.cpp */,
-				9815B5121E42E09D009073DB /* compare_spy.h */,
-			);
-			name = "FSU Sort_Spy";
-			path = "FSU Spy";
 			sourceTree = "<group>";
 		};
 		9815B4EA1E427B18009073DB /* Support FIles */ = {
@@ -151,27 +148,14 @@
 				9815B4ED1E429793009073DB /* hsort.cpp */,
 				9815B4EE1E429793009073DB /* ranuint.cpp */,
 				9815B5221E42E3B1009073DB /* resultstest.com */,
+				9815B5231E42E6EF009073DB /* sortedresults.com */,
 				9815B4EC1E42971F009073DB /* gbsearch.h */,
 				9815B50F1E429DEA009073DB /* rbsearch.h */,
 				9815B4EB1E4296F0009073DB /* compare.h */,
-			);
-			name = "Support FIles";
-			sourceTree = "<group>";
-		};
-		9815B5001E429841009073DB /* FSU Search_Spy */ = {
-			isa = PBXGroup;
-			children = (
+				98098B521E42EC4A001798DB /* search_spy.cpp */,
 				9815B4EF1E429793009073DB /* search_spy.cpp */,
 			);
-			path = "FSU Search_Spy";
-			sourceTree = "<group>";
-		};
-		9815B51B1E42E2F6009073DB /* RanUInt */ = {
-			isa = PBXGroup;
-			children = (
-				9815B51C1E42E2F6009073DB /* main.cpp */,
-			);
-			path = RanUInt;
+			name = "Support FIles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9815B5151E42E27C009073DB /* xran.cpp in Sources */,
 				9815B4F41E429793009073DB /* sort_spy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +442,7 @@
 				9815B4E91E4279ED009073DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9815B5031E429841009073DB /* Build configuration list for PBXNativeTarget "FSU Search_Spy" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +451,7 @@
 				9815B5051E429841009073DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9815B51E1E42E2F6009073DB /* Build configuration list for PBXNativeTarget "RanUInt" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +460,7 @@
 				9815B5201E42E2F6009073DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

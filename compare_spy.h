@@ -48,6 +48,16 @@ namespace fsu  //place compare_spy in the fsu namespace
         size_t counter; // holds the number of call counts
     }; // end class LessThanSpy<T>
     
+    
+    //technically needed; these are stateless objects so they're always equal
+    template < typename T >
+    bool operator == ( const LessThanSpy<T>& , const LessThanSpy<T>& )
+    { return 1; }
+    
+    template < typename T >
+    bool operator != ( const LessThanSpy<T>& , const LessThanSpy<T>& )
+    { return 0; }
+    
 } // end namespace fsu
 
 #endif
