@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9815B4F41E429793009073DB /* sort_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4F01E429793009073DB /* sort_spy.cpp */; };
-		9815B5061E42984D009073DB /* search_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4EF1E429793009073DB /* search_spy.cpp */; };
 		9815B5211E42E323009073DB /* ranuint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4EE1E429793009073DB /* ranuint.cpp */; };
+		98E6C2BB1E43C5E00032602D /* search_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98098B521E42EC4A001798DB /* search_spy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +22,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		9815B4FD1E429841009073DB /* CopyFiles */ = {
+		9815B5181E42E2F5009073DB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -31,7 +31,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		9815B5181E42E2F5009073DB /* CopyFiles */ = {
+		98E6C2B21E43C5AC0032602D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -50,13 +50,11 @@
 		9815B4EC1E42971F009073DB /* gbsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gbsearch.h; sourceTree = "<group>"; };
 		9815B4ED1E429793009073DB /* hsort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hsort.cpp; sourceTree = "<group>"; };
 		9815B4EE1E429793009073DB /* ranuint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ranuint.cpp; sourceTree = "<group>"; };
-		9815B4EF1E429793009073DB /* search_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search_spy.cpp; sourceTree = "<group>"; };
 		9815B4F01E429793009073DB /* sort_spy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sort_spy.cpp; sourceTree = "<group>"; };
 		9815B4F51E4297D2009073DB /* deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deque.h; sourceTree = "<group>"; };
 		9815B4F61E4297D2009073DB /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
 		9815B4F71E4297E8009073DB /* deque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deque.cpp; sourceTree = "<group>"; };
 		9815B4F81E4297E8009073DB /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
-		9815B4FF1E429841009073DB /* FSU Search_Spy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Search_Spy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9815B5071E429984009073DB /* list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
 		9815B5081E429984009073DB /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		9815B5091E4299D2009073DB /* genalg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genalg.h; sourceTree = "<group>"; };
@@ -72,6 +70,9 @@
 		9815B51A1E42E2F5009073DB /* RanUInt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RanUInt; sourceTree = BUILT_PRODUCTS_DIR; };
 		9815B5221E42E3B1009073DB /* resultstest.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resultstest.com; sourceTree = "<group>"; };
 		9815B5231E42E6EF009073DB /* sortedresults.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sortedresults.com; sourceTree = "<group>"; };
+		98E6C2AF1E43A9A60032602D /* gssearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gssearch.h; sourceTree = "<group>"; };
+		98E6C2B41E43C5AC0032602D /* FSU Search_Spy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Search_Spy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E6C2BC1E43C64A0032602D /* pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pair.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,14 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9815B4FC1E429841009073DB /* Frameworks */ = {
+		9815B5171E42E2F5009073DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9815B5171E42E2F5009073DB /* Frameworks */ = {
+		98E6C2B11E43C5AC0032602D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -111,6 +112,7 @@
 		9815B4D71E4279ED009073DB = {
 			isa = PBXGroup;
 			children = (
+				98E6C2AE1E43A9770032602D /* Search Spy */,
 				98098B561E42EC85001798DB /* Sort Spy */,
 				9815B4EA1E427B18009073DB /* Support FIles */,
 				9815B4E11E4279ED009073DB /* Products */,
@@ -121,8 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				9815B4E01E4279ED009073DB /* FSU Sort_Spy */,
-				9815B4FF1E429841009073DB /* FSU Search_Spy */,
 				9815B51A1E42E2F5009073DB /* RanUInt */,
+				98E6C2B41E43C5AC0032602D /* FSU Search_Spy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +132,7 @@
 		9815B4EA1E427B18009073DB /* Support FIles */ = {
 			isa = PBXGroup;
 			children = (
+				98E6C2BC1E43C64A0032602D /* pair.h */,
 				9815B5131E42E27C009073DB /* xran.cpp */,
 				9815B5141E42E27C009073DB /* xran.h */,
 				9815B5101E42A981009073DB /* fgss.cpp */,
@@ -152,10 +155,17 @@
 				9815B4EC1E42971F009073DB /* gbsearch.h */,
 				9815B50F1E429DEA009073DB /* rbsearch.h */,
 				9815B4EB1E4296F0009073DB /* compare.h */,
-				98098B521E42EC4A001798DB /* search_spy.cpp */,
-				9815B4EF1E429793009073DB /* search_spy.cpp */,
 			);
 			name = "Support FIles";
+			sourceTree = "<group>";
+		};
+		98E6C2AE1E43A9770032602D /* Search Spy */ = {
+			isa = PBXGroup;
+			children = (
+				98098B521E42EC4A001798DB /* search_spy.cpp */,
+				98E6C2AF1E43A9A60032602D /* gssearch.h */,
+			);
+			name = "Search Spy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,23 +188,6 @@
 			productReference = 9815B4E01E4279ED009073DB /* FSU Sort_Spy */;
 			productType = "com.apple.product-type.tool";
 		};
-		9815B4FE1E429841009073DB /* FSU Search_Spy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9815B5031E429841009073DB /* Build configuration list for PBXNativeTarget "FSU Search_Spy" */;
-			buildPhases = (
-				9815B4FB1E429841009073DB /* Sources */,
-				9815B4FC1E429841009073DB /* Frameworks */,
-				9815B4FD1E429841009073DB /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FSU Search_Spy";
-			productName = "FSU Search_Spy";
-			productReference = 9815B4FF1E429841009073DB /* FSU Search_Spy */;
-			productType = "com.apple.product-type.tool";
-		};
 		9815B5191E42E2F5009073DB /* RanUInt */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9815B51E1E42E2F6009073DB /* Build configuration list for PBXNativeTarget "RanUInt" */;
@@ -212,6 +205,23 @@
 			productReference = 9815B51A1E42E2F5009073DB /* RanUInt */;
 			productType = "com.apple.product-type.tool";
 		};
+		98E6C2B31E43C5AC0032602D /* FSU Search_Spy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E6C2B81E43C5AC0032602D /* Build configuration list for PBXNativeTarget "FSU Search_Spy" */;
+			buildPhases = (
+				98E6C2B01E43C5AC0032602D /* Sources */,
+				98E6C2B11E43C5AC0032602D /* Frameworks */,
+				98E6C2B21E43C5AC0032602D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FSU Search_Spy";
+			productName = "FSU Search_Spy";
+			productReference = 98E6C2B41E43C5AC0032602D /* FSU Search_Spy */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,11 +235,11 @@
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
-					9815B4FE1E429841009073DB = {
+					9815B5191E42E2F5009073DB = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
-					9815B5191E42E2F5009073DB = {
+					98E6C2B31E43C5AC0032602D = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -248,8 +258,8 @@
 			projectRoot = "";
 			targets = (
 				9815B4DF1E4279ED009073DB /* FSU Sort_Spy */,
-				9815B4FE1E429841009073DB /* FSU Search_Spy */,
 				9815B5191E42E2F5009073DB /* RanUInt */,
+				98E6C2B31E43C5AC0032602D /* FSU Search_Spy */,
 			);
 		};
 /* End PBXProject section */
@@ -263,19 +273,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9815B4FB1E429841009073DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9815B5061E42984D009073DB /* search_spy.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9815B5161E42E2F5009073DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9815B5211E42E323009073DB /* ranuint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E6C2B01E43C5AC0032602D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E6C2BB1E43C5E00032602D /* search_spy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,24 +397,6 @@
 			};
 			name = Release;
 		};
-		9815B5041E429841009073DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		9815B5051E429841009073DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		9815B51F1E42E2F6009073DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +407,24 @@
 			name = Debug;
 		};
 		9815B5201E42E2F6009073DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98E6C2B91E43C5AC0032602D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98E6C2BA1E43C5AC0032602D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -444,15 +454,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9815B5031E429841009073DB /* Build configuration list for PBXNativeTarget "FSU Search_Spy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9815B5041E429841009073DB /* Debug */,
-				9815B5051E429841009073DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9815B51E1E42E2F6009073DB /* Build configuration list for PBXNativeTarget "RanUInt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -461,6 +462,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		98E6C2B81E43C5AC0032602D /* Build configuration list for PBXNativeTarget "FSU Search_Spy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E6C2B91E43C5AC0032602D /* Debug */,
+				98E6C2BA1E43C5AC0032602D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
