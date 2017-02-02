@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9815B4F41E429793009073DB /* sort_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4F01E429793009073DB /* sort_spy.cpp */; };
 		9815B5061E42984D009073DB /* search_spy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4EF1E429793009073DB /* search_spy.cpp */; };
+		9815B5151E42E27C009073DB /* xran.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B5131E42E27C009073DB /* xran.cpp */; };
+		9815B5211E42E323009073DB /* ranuint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9815B4EE1E429793009073DB /* ranuint.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +24,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		9815B4FD1E429841009073DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9815B5181E42E2F5009073DB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -55,7 +66,12 @@
 		9815B50E1E429AF9009073DB /* list_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_sort.cpp; sourceTree = "<group>"; };
 		9815B50F1E429DEA009073DB /* rbsearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rbsearch.h; sourceTree = "<group>"; };
 		9815B5101E42A981009073DB /* fgss.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fgss.cpp; sourceTree = "<group>"; };
-		9815B5111E42D3FF009073DB /* compare_spy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = compare_spy.h; path = "../../../FSU/COP 4530/Course Library/tcpp/compare_spy.h"; sourceTree = "<group>"; };
+		9815B5121E42E09D009073DB /* compare_spy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compare_spy.h; path = ../compare_spy.h; sourceTree = "<group>"; };
+		9815B5131E42E27C009073DB /* xran.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xran.cpp; sourceTree = "<group>"; };
+		9815B5141E42E27C009073DB /* xran.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xran.h; sourceTree = "<group>"; };
+		9815B51A1E42E2F5009073DB /* RanUInt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RanUInt; sourceTree = BUILT_PRODUCTS_DIR; };
+		9815B51C1E42E2F6009073DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9815B5221E42E3B1009073DB /* resultstest.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resultstest.com; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9815B5171E42E2F5009073DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +105,7 @@
 				9815B4EA1E427B18009073DB /* Support FIles */,
 				9815B4E21E4279ED009073DB /* FSU Sort_Spy */,
 				9815B5001E429841009073DB /* FSU Search_Spy */,
+				9815B51B1E42E2F6009073DB /* RanUInt */,
 				9815B4E11E4279ED009073DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +115,7 @@
 			children = (
 				9815B4E01E4279ED009073DB /* FSU Sort_Spy */,
 				9815B4FF1E429841009073DB /* FSU Search_Spy */,
+				9815B51A1E42E2F5009073DB /* RanUInt */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				9815B4F01E429793009073DB /* sort_spy.cpp */,
-				9815B5111E42D3FF009073DB /* compare_spy.h */,
+				9815B5121E42E09D009073DB /* compare_spy.h */,
 			);
 			name = "FSU Sort_Spy";
 			path = "FSU Spy";
@@ -108,6 +133,8 @@
 		9815B4EA1E427B18009073DB /* Support FIles */ = {
 			isa = PBXGroup;
 			children = (
+				9815B5131E42E27C009073DB /* xran.cpp */,
+				9815B5141E42E27C009073DB /* xran.h */,
 				9815B5101E42A981009073DB /* fgss.cpp */,
 				9815B50D1E429AF9009073DB /* list_macro.cpp */,
 				9815B50E1E429AF9009073DB /* list_sort.cpp */,
@@ -123,6 +150,7 @@
 				9815B4F61E4297D2009073DB /* vector.h */,
 				9815B4ED1E429793009073DB /* hsort.cpp */,
 				9815B4EE1E429793009073DB /* ranuint.cpp */,
+				9815B5221E42E3B1009073DB /* resultstest.com */,
 				9815B4EC1E42971F009073DB /* gbsearch.h */,
 				9815B50F1E429DEA009073DB /* rbsearch.h */,
 				9815B4EB1E4296F0009073DB /* compare.h */,
@@ -136,6 +164,14 @@
 				9815B4EF1E429793009073DB /* search_spy.cpp */,
 			);
 			path = "FSU Search_Spy";
+			sourceTree = "<group>";
+		};
+		9815B51B1E42E2F6009073DB /* RanUInt */ = {
+			isa = PBXGroup;
+			children = (
+				9815B51C1E42E2F6009073DB /* main.cpp */,
+			);
+			path = RanUInt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +211,23 @@
 			productReference = 9815B4FF1E429841009073DB /* FSU Search_Spy */;
 			productType = "com.apple.product-type.tool";
 		};
+		9815B5191E42E2F5009073DB /* RanUInt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9815B51E1E42E2F6009073DB /* Build configuration list for PBXNativeTarget "RanUInt" */;
+			buildPhases = (
+				9815B5161E42E2F5009073DB /* Sources */,
+				9815B5171E42E2F5009073DB /* Frameworks */,
+				9815B5181E42E2F5009073DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RanUInt;
+			productName = RanUInt;
+			productReference = 9815B51A1E42E2F5009073DB /* RanUInt */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +242,10 @@
 						ProvisioningStyle = Automatic;
 					};
 					9815B4FE1E429841009073DB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					9815B5191E42E2F5009073DB = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -208,6 +265,7 @@
 			targets = (
 				9815B4DF1E4279ED009073DB /* FSU Sort_Spy */,
 				9815B4FE1E429841009073DB /* FSU Search_Spy */,
+				9815B5191E42E2F5009073DB /* RanUInt */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9815B5151E42E27C009073DB /* xran.cpp in Sources */,
 				9815B4F41E429793009073DB /* sort_spy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9815B5061E42984D009073DB /* search_spy.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9815B5161E42E2F5009073DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9815B5211E42E323009073DB /* ranuint.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +422,24 @@
 			};
 			name = Release;
 		};
+		9815B51F1E42E2F6009073DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9815B5201E42E2F6009073DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -380,6 +465,14 @@
 			buildConfigurations = (
 				9815B5041E429841009073DB /* Debug */,
 				9815B5051E429841009073DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9815B51E1E42E2F6009073DB /* Build configuration list for PBXNativeTarget "RanUInt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9815B51F1E42E2F6009073DB /* Debug */,
+				9815B5201E42E2F6009073DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

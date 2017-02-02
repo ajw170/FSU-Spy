@@ -30,7 +30,7 @@
 // #include <nsort.h>
 #include <list.h>
 #include <insert.h>
-//#include <compare_spy.h> //to be completed by me
+#include <compare_spy.h> //to be completed by me
 
 const int c1 = 20, c2 = 15, c3 = 10, c4 = 10, c5 = 12; // column widths
 
