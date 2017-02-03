@@ -25,8 +25,8 @@
 #include <rbsearch.h> // recursive implementations - alt::
 #include <genalg.h>
 
-typedef char ElementType;     const char* e_t = "char";     bool FIXED_WIDTH = 1;
-// typedef uint32_t ElementType; const char* e_t = "uint32_t"; bool FIXED_WIDTH = 0;
+//typedef char ElementType;     const char* e_t = "char";     bool FIXED_WIDTH = 1;
+ typedef uint32_t ElementType; const char* e_t = "uint32_t"; bool FIXED_WIDTH = 0;
 
 const int c1 = 20, c2 = 12, c3 = 7, c4 = 10, c5 = 9, c6 = 8; // column widths
 int main(int argc, char* argv[])
