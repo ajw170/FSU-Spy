@@ -191,7 +191,7 @@ namespace fsu
     I mid;
     while (low != hih)
     {
-      mid =  low + ((hih - low) >> 1);    // low <= mid < hih
+      mid =  low + ((hih - low) >> 1);    // low <= mid < hih **pointer arithemetic, not valid in list iterators
       if (cmp(*mid , val))                // *mid < val
 	low = ++mid;                        // *mid <= val
       else                                // val <= *mid
