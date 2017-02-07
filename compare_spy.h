@@ -49,14 +49,21 @@ namespace fsu  //place compare_spy in the fsu namespace
     }; // end class LessThanSpy<T>
     
     
-    //technically needed; these are stateless objects so they're always equal
+    //operators to determine if predicate objects are equal; determined by the counter value
     template < typename T >
-    bool operator == ( const LessThanSpy<T>& , const LessThanSpy<T>& )
-    { return 1; }
+    bool operator == ( const LessThanSpy<T> &p1 , const LessThanSpy<T> &p2)
+    {
+        if (p1.Count() == p2.Count()) //check to see if counts are equal
+            return 1;
+        else
+            return 0;
+    }
     
     template < typename T >
-    bool operator != ( const LessThanSpy<T>& , const LessThanSpy<T>& )
-    { return 0; }
+    bool operator != ( const LessThanSpy<T> &p1 , const LessThanSpy<T> &p2)
+    {
+        return !(p1 == p2);
+    }
     
 } // end namespace fsu
 
