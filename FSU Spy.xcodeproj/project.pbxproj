@@ -68,8 +68,6 @@
 		9815B5131E42E27C009073DB /* xran.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xran.cpp; sourceTree = "<group>"; };
 		9815B5141E42E27C009073DB /* xran.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xran.h; sourceTree = "<group>"; };
 		9815B51A1E42E2F5009073DB /* RanUInt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RanUInt; sourceTree = BUILT_PRODUCTS_DIR; };
-		9815B5221E42E3B1009073DB /* resultstest.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resultstest.com; sourceTree = "<group>"; };
-		9815B5231E42E6EF009073DB /* sortedresults.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sortedresults.com; sourceTree = "<group>"; };
 		98E6C2AF1E43A9A60032602D /* gssearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gssearch.h; sourceTree = "<group>"; };
 		98E6C2B41E43C5AC0032602D /* FSU Search_Spy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Search_Spy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E6C2BC1E43C64A0032602D /* pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pair.h; sourceTree = "<group>"; };
@@ -150,8 +148,6 @@
 				9815B4F61E4297D2009073DB /* vector.h */,
 				9815B4ED1E429793009073DB /* hsort.cpp */,
 				9815B4EE1E429793009073DB /* ranuint.cpp */,
-				9815B5221E42E3B1009073DB /* resultstest.com */,
-				9815B5231E42E6EF009073DB /* sortedresults.com */,
 				9815B4EC1E42971F009073DB /* gbsearch.h */,
 				9815B50F1E429DEA009073DB /* rbsearch.h */,
 				9815B4EB1E4296F0009073DB /* compare.h */,
@@ -470,6 +466,7 @@
 				98E6C2BA1E43C5AC0032602D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
